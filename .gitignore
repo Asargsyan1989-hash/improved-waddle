@@ -1,0 +1,19 @@
+# Local credentials; examples may be committed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and Python cache
+*.log
+__pycache__/
+*.py[cod]
+.venv/
